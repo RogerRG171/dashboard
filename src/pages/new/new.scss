@@ -71,6 +71,11 @@
             margin-top: 10px;
             border-radius: 16px;
             transition: 0.4s ease-in-out;
+
+            &:disabled{
+              opacity: 0.5;
+              cursor: not-allowed;
+            }
           }
 
           button:hover{
